@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'app-bancodimdim'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_3780d0e0f04541b18810492e7e499353 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ce58bdd7cb6b4114bb1b3c516f99904c }}
         package: '${{ github.workspace }}/target/*.war'
